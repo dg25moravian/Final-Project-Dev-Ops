@@ -25,3 +25,9 @@ After you do those steps, you will then run
 ```
 python manage.py runserver
 ```
+
+# How to run with Gunicorn
+
+```
+gunicorn -c conf/gunicorn_config.py personal_portfolio.wsgi
+```
