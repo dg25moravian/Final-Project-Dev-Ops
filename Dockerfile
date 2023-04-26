@@ -11,6 +11,6 @@ WORKDIR /django_website
 
 COPY website.env .env
 
-COPY manage.py .
+CMD ["manage.py", "runserver"]
 
 CMD [".venv/bin/gunicorn", "--bind", "0.0.0.0:80", "app:app"]
