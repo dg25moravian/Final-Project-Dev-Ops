@@ -1,0 +1,4 @@
+State,Capitol,Population
+Pennsylvania,Harrisburg,13011844
+New York,Albany,20215751
+Ohio,Colombus,11780017
