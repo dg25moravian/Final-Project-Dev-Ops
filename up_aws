@@ -1,4 +1,4 @@
 python3 -m venv .venv
 source .venv/bin/activate
 pip3 install -r requirements.txt
-sudo -E /home/ec2-user/Final-Project-Dev-Ops/.venv/bin/gunicorn -c /home/ec2-user/Final-Project-Dev-Ops/conf/gunicorn_config.py personal_portfolio.wsgi
+sudo gunicorn -c conf/gunicorn_config.py personal_portfolio.wsgi
